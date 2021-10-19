@@ -1,0 +1,23 @@
+{
+  "name": "skiller-webpack",
+  "version": "1.0.0",
+  "description": "Webpack Module Federation Demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanraison/skiller-webpack.git"
+  },
+  "author": "Alan Raison <alanraison@noreply.users.github.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/alanraison/skiller-webpack/issues"
+  },
+  "homepage": "https://github.com/alanraison/skiller-webpack#readme",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "node",
+  "dockerFile": "Dockerfile",
+  "remoteUser": "node",
+  "remoteEnv": {
+    "EDITOR": "code -w"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@skiller-webpack/main",
+  "version": "0.0.0",
+  "description": "Main application",
+  "author": "Alan <alanraison@users.noreply.github.com>",
+  "homepage": "https://github.com/alanraison/skiller-webpack/tree/main/packages/main#readme",
+  "license": "GPL-3.0-or-later",
+  "module": "true",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanraison/skiller-webpack.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/alanraison/skiller-webpack/issues"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "^17.0.9",
+    "autoprefixer": "^10.3.7",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.3.2",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.2.0",
+    "style-loader": "^3.3.0",
+    "tailwindcss": "^2.2.17",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-html-plugin": "^0.1.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browsers": "last 2 versions"
+}
