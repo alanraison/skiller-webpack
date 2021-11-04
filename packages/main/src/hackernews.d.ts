@@ -1,5 +1,5 @@
 /// <reference types="React" />
-declare module "@skiller-webpack/hackernews/HackerNews" {
+declare module "@skiller-webpack/hackernews" {
   interface HackerNewsProps {
     search?: string;
   }

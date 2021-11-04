@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Reddit = React.lazy(() => import('@skiller-webpack/reddit/Reddit'));
-const HackerNews = React.lazy(() => import('@skiller-webpack/hackernews/HackerNews'));
+const Reddit = React.lazy(() => import('@skiller-webpack/reddit'));
+const HackerNews = React.lazy(() => import('@skiller-webpack/hackernews'));
 
 interface ResultsGridProps {
   search: string;

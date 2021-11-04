@@ -55,7 +55,7 @@ module.exports = {
       },
       name: 'reddit',
       filename: 'reddit-bundle.js',
-      exposes: [{ './Reddit': './src/Reddit' }],
+      exposes: [{ '.': './src/Reddit' }],
       shared: ['react', 'react-dom'],
     }),
   ],

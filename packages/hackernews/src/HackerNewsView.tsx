@@ -3,7 +3,7 @@ import { DateTime } from 'luxon';
 
 export interface HNData {
   objectID: string;
-  createdAt: string;
+  createdAt: DateTime;
   points: number;
   url: string;
   title: string;
@@ -23,7 +23,7 @@ export default function HackerNewsView({ items }: HNViewProps) {
     <div className="table-row-group">
       {items?.map(({ objectID, createdAt, points, url, title }) => (
         <a key={objectID} className="table-row hover:bg-gray-100 hover:shadow" href={url}>
-          <div className="table-cell p-0.5">{DateTime.fromISO(createdAt).toRelativeCalendar()}</div>
+          <div className="table-cell p-0.5">{createdAt.toRelativeCalendar()}</div>
           <div className="table-cell p-0.5 w-full">{title}</div>
           <div className="table-cell p-0.5 text-right">{points}</div>
         </a>

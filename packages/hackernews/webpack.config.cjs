@@ -55,7 +55,7 @@ module.exports = {
       },
       name: 'hackernews',
       filename: 'hackernews-bundle.js',
-      exposes: [{ './HackerNews': './src/HackerNews' }],
+      exposes: [{ '.': './src/HackerNews' }],
       shared: ['react', 'react-dom'],
     }),
   ],

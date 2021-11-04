@@ -1,5 +1,5 @@
 /// <reference types="React" />
-declare module "@skiller-webpack/reddit/Reddit" {
+declare module "@skiller-webpack/reddit" {
   interface RedditProps {
     search?: string;
   }
